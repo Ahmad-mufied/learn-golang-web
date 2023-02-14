@@ -3,11 +3,11 @@ package main
 import (
 	"embed"
 	"fmt"
+	"html/template"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"testing"
-	"text/template"
 )
 
 /*
