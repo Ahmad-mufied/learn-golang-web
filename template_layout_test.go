@@ -46,7 +46,7 @@ func TemplateLayout(w http.ResponseWriter, r *http.Request) {
 	})
 }
 
-func TestTemplateTemplateLayout(t *testing.T) {
+func TestTemplateLayout(t *testing.T) {
 	request := httptest.NewRequest(http.MethodGet, "http://localhost:8080", nil)
 	recorder := httptest.NewRecorder()
 
